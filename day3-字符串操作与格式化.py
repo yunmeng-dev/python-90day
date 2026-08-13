@@ -15,7 +15,7 @@ def task2():
     print(f"城  市:{city}")
     print(f"口头禅:{favorite_word}")
 def reverse_upper(s:str):
-    print(s[::-1].upper())
+    return(s[::-1].upper())
 print(task1())
 task2()
-(reverse_upper("str"))
+print((reverse_upper("str")))
