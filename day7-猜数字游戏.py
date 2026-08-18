@@ -2,7 +2,7 @@ import random
 a=random.randint(1,100)
 count=0
 while True:
-    b=int(input("请输入1-20之间的整数:")) 
+    b=int(input("请输入1-100之间的整数:")) 
     count+=1
     if a<b:
         print("太大了")
